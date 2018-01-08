@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qhshef.myanmar.Vowel">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/gr_vowel"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/k"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅏ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/i"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅑ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/j"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅓ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/u"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅕ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/h"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅗ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/y"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅛ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/n"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅜ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅠ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/m"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅡ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/l"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅣ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/o"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅐ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/p"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅔ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/hk"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅘ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/ho"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅙ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/hl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅚ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/nj"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅝ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/np"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅞ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/nl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅟ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/ml"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ㅢ"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="@drawable/dotted_line"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/dotted_line"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qhshef.myanmar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.base">
+
+        <!-- MainActiviy -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Consonant -->
+        <activity android:name=".Consonant">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Vowel -->
+        <activity android:name=".Vowel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Consonant_frame -->
+        <activity android:name=".Consonant_frag">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Consonant" />
+        </activity>
+
+        <!-- Vowel_frame -->
+        <activity android:name=".Vowel_frame">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Vowel" />
+        </activity>
+    </application>
+
+</manifest>

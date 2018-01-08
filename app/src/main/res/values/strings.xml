@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Myanmar</string>
+    <string name="consonant">ဗျည်း</string>
+    <string name="vowel">သရသံ</string>
+    <string name="word">အဆိုပါစကားလုံး</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
