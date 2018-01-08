@@ -8,7 +8,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.RelativeLayout;
 
 import com.qhshef.myanmar.R;
 
@@ -20,6 +20,7 @@ public class Frag_T extends Fragment {
 
     SoundPool pool;
     int sound;
+    int soundWord;
 
     public Frag_T() {
         // Required empty public constructor
@@ -34,12 +35,20 @@ public class Frag_T extends Fragment {
 
         pool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
         sound = pool.load(getActivity(), R.raw.t, 1);
+        soundWord = pool.load(getActivity(), R.raw.word_t, 1);
 
-        Button bt = v.findViewById(R.id.sound_bt);
-        bt.setOnClickListener(new View.OnClickListener() {
+        RelativeLayout sound_bt = v.findViewById(R.id.sound_bt);
+        sound_bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 pool.play(sound, 1,1,0,0,1);
+            }
+        });
+        RelativeLayout sound_word = v.findViewById(R.id.sound_word);
+        sound_word.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                pool.play(soundWord, 1,1,0,0,1);
             }
         });
 

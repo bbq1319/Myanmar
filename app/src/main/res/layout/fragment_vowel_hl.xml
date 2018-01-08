@@ -26,7 +26,7 @@
                 android:layout_centerInParent="true"
                 android:gravity="center"
                 android:layout_margin="3dp"
-                android:text="소리듣기"
+                android:text="သံကိုနားထောင်"
                 android:drawableLeft="@drawable/ic_volume_up_black_24dp"
                 android:drawablePadding="5dp"
                 android:textColor="#000000"/>
@@ -42,11 +42,11 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_centerInParent="true"
                 android:gravity="center"
                 android:layout_margin="3dp"
-                android:text="단어소리"
+                android:text="ဆိုသောစကားကို\nကိုနားထောင်"
                 android:drawableLeft="@drawable/ic_volume_up_black_24dp"
                 android:drawablePadding="5dp"
                 android:textColor="#000000"/>

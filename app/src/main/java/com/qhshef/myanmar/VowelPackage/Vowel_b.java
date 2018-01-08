@@ -36,6 +36,13 @@ public class Vowel_b extends Fragment {
         sound = pool.load(getActivity(), R.raw.a, 1);
         soundWord = pool.load(getActivity(), R.raw.word_b, 1);
 
+        RelativeLayout sound_bt = v.findViewById(R.id.sound_bt);
+        sound_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                pool.play(sound, 1,1,0,0,1);
+            }
+        });
         RelativeLayout sound_word = v.findViewById(R.id.sound_word);
         sound_word.setOnClickListener(new View.OnClickListener() {
             @Override
