@@ -27,7 +27,7 @@
         </activity>
 
         <!-- Vowel -->
-        <activity android:name=".Vowel" >
+        <activity android:name=".Vowel">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
@@ -45,6 +45,13 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Vowel" />
+        </activity>
+
+        <!-- Splash -->
+        <activity android:name=".SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+
         </activity>
     </application>
 
