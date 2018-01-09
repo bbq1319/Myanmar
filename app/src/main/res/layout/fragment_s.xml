@@ -61,6 +61,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:src="@drawable/s"
-        android:scaleType="fitXY"/>/>
+        android:scaleType="fitXY"/>
 
 </LinearLayout>
