@@ -33,7 +33,7 @@ public class Vowel_ml extends Fragment {
         View v = inflater.inflate(R.layout.fragment_vowel_ml, container, false);
 
         pool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
-        sound = pool.load(getActivity(), R.raw.a, 1);
+        sound = pool.load(getActivity(), R.raw.ml, 1);
         soundWord = pool.load(getActivity(), R.raw.word_ml, 1);
 
         RelativeLayout sound_bt = v.findViewById(R.id.sound_bt);
